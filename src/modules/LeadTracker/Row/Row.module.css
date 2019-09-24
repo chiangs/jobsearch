@@ -1,0 +1,30 @@
+.Row {
+    --light:
+    --dark:
+    --active:
+    --hover:
+}
+
+.Row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.Row:hover {
+    /* Use the scale on the ::before and ::after to magnify on hover */
+}
+
+.Header {
+    
+}
+
+.Light {
+    background-color: var(--light);
+}
+
+.Dark {
+    background-color: var(--dark);
+}
