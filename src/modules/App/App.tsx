@@ -5,7 +5,7 @@ import LeadTracker from '../LeadTracker';
 import Welcome from './Welcome';
 
 const App: React.FC = () => {
-	const ui = true ? Welcome : LeadTracker;
+	const ui = true ? <Welcome /> : <LeadTracker />;
 	return (
 		<div className={css.App}>
 			<header className={css.Header}>
